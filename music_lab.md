@@ -6,7 +6,7 @@ In their console they would like to be able to:
 
 * Create and Save Artists- DONE
 * Create and Save Albums- DONE
-* Delete all Artists / Albums
+* Delete all Artists / Albums- DONE
 * Find Artists/Albums by their ID (`select`)
 * List All Artists/Albums (`select_all`)
 
