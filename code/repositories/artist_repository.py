@@ -1,10 +1,5 @@
 # import code goes here when I get to it. 
 
-from flask import after_this_request
-
-from code.models.artist import Artist
-
-
 def save(artist):
     # This line is the SQL code- for what we are doing eg. adding an artist
     # to a database. The code is generalised eg. %s 
@@ -38,7 +33,15 @@ def select(id):
     return artist
 
 
+def select_all():
+    # Empty list created to later append with the result from Sql code. 
+    artists = []
+    # sql to select from all artists in the DB.
+    sql = "SELECT * FROM artists"
+    results = run_sql(sql)
 
+    for row in results:
+        # ***** PICK UP HERE THEN ALBUM SELECT ALL *****
 
 
 
