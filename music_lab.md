@@ -4,8 +4,8 @@ You have been asked to create an app that will allow a music collector to manage
 
 In their console they would like to be able to:
 
-* Create and Save Artists
-* Create and Save Albums
+* Create and Save Artists- DONE
+* Create and Save Albums- DONE
 * Delete all Artists / Albums
 * Find Artists/Albums by their ID (`select`)
 * List All Artists/Albums (`select_all`)
